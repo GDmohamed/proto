@@ -1,0 +1,501 @@
+body {
+    background-color: black;
+}
+/* .con {
+    display: grid;
+    justify-content: center;
+} */
+
+.boo {
+    width: 100%;
+    height: 500px;
+    background-color: #000000;
+    background-image: url(../cavar/1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 3px;
+    position: absolute;
+    top: 5%;
+}
+
+/* .boo::before {
+    content: "";
+    width: 100%;
+    height: 550px;
+    background-color: aquamarine;
+    border-bottom-right-radius: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.boo::after {
+    content: "";
+    width: 100%;
+    height: 600px;
+    background-color: rgb(36, 247, 176);
+    border-bottom-right-radius: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+} */
+
+.par{
+    background-image:linear-gradient(180deg, rgb(75, 71, 71),rgb(0, 0, 0));
+    /* background-attachment: fixed; */
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.1px solid white;
+    position: sticky;
+    top: 0 ;
+    z-index: 2;
+    box-shadow: 1px 3px 10px 0 #a38a8a59;
+    
+}
+
+
+
+.par a{
+    background-color: rgb(53, 47, 47);
+    text-decoration: none;
+    animation-name: hurt;
+    animation-duration: 10s;
+}
+
+.par a:link {
+    color: white;
+}
+.par a:visited {
+    color: aliceblue;
+}
+.par a:hover {
+    color: rgb(246, 255, 161);
+    font-size: 30px;
+    text-decoration:underline;
+}
+
+
+
+
+
+.Welcome{
+    position: absolute;
+    top: 550px;
+    width: 100%;
+    background-color: red;
+    
+}
+@media (min-width: 350px) and (max-width: 490px){
+    .Welcome {
+        top: 450px;
+    }
+  
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+    position: relative;
+    animation: hott 10s linear  alternate;
+}
+
+@keyframes hott{
+    0%{
+        
+        opacity: 0;
+    }
+   
+   
+    
+    100%{
+        opacity: 1;
+    }
+}
+
+.bac {
+    width: 100%;
+    height: 400px;
+}
+
+.Graphic {
+    background-color: rgba(0, 0, 0, 0.98);
+    width: 100%;
+    height: auto;
+    padding: 1px;
+    
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.Graphic div {
+    background-color: rgba(255, 255, 255, 0.98);
+    width: 100%;
+    height: 5px;
+    display: flex;
+    align-items: self-end;
+    
+    
+}
+
+.photoshop::after {
+        content: "photoshop";
+        width: 80%;
+        height: 4px;
+        background-color: rgb(36, 247, 176);
+        position: absolute;
+       margin: 1px;
+       border-radius: 2px;
+       color: white;
+       text-align: center;
+       font-size: 11px;
+       
+       animation: photo 2.5s linear  alternate;
+}
+
+@keyframes photo{
+    0%{
+        width: 0%;
+    }
+   
+    
+    100%{
+        width: 80%;
+    }
+}
+.photoshop::before {
+        content: "80%";
+       color: white;
+       font-size: 11px;
+       position: absolute;
+       left: 79%;
+       
+       animation: photoo 2.5s linear  alternate;
+       z-index: 1;
+}
+
+@keyframes photoo{
+    0%{
+        content: counter(width);
+    }
+   
+    
+    100%{
+        content: counter(width);
+    }
+}
+
+
+.illustrator::after {
+        content: "illustrator";
+        width: 73%;
+        height: 4px;
+        background-color: rgb(36, 247, 176);
+        position: absolute;
+       margin: 1px;
+       border-radius: 2px;
+       color: white;
+       text-align: center;
+       font-size: 11px;
+       animation: illi 3s linear  alternate;
+}
+
+@keyframes illi{
+    0%{
+        width: 0%;
+    }
+   
+    
+    100%{
+        width: 73%;
+    }
+}
+.illustrator::before {
+        content: "73%";
+       color: white;
+       font-size: 11px;
+       position: absolute;
+       left: 72%;
+       animation: ill 3s linear  alternate;
+       z-index: 1;
+}
+
+@keyframes ill{
+    0%{
+        content: counter(width);
+    }
+   
+    
+    100%{
+        content: counter(width);
+    }
+}
+
+.premiere::after {
+    content: "premiere";
+    width: 60%;
+    height: 4px;
+    background-color: rgb(36, 247, 176);
+    position: absolute;
+   margin: 1px;
+   border-radius: 2px;
+   color: white;
+   text-align: center;
+   font-size: 11px;
+   animation: prem 3.5s linear  alternate;
+}
+
+@keyframes prem{
+    0%{
+        width: 0%;
+    }
+   
+    
+    100%{
+        width: 60%;
+    }
+}
+.premiere::before {
+        content: "60%";
+       color: white;
+       font-size: 11px;
+       position: absolute;
+       left: 59%;
+       animation: prrem 3.5s linear  alternate;
+       z-index: 1;
+}
+
+@keyframes prrem{
+    0%{
+        content: counter(width);
+        
+    }
+   
+    
+    100%{
+        content: counter(width);
+        
+    }
+}
+
+.after-Effect::after {
+        content: "after-Effect";
+        width: 67%;
+        height: 4px;
+        background-color: rgb(36, 247, 176);
+        position: absolute;
+       margin: 1px;
+       border-radius: 2px;
+       color: white;
+       text-align: center;
+       font-size: 11px;
+       animation: aff 4s linear  alternate;
+}
+
+@keyframes aff{
+    0%{
+        width: 0%;
+    }
+   
+    
+    100%{
+        width: 67%;
+    }
+}
+.after-Effect::before {
+        content: "67%";
+       color: white;
+       font-size: 11px;
+       position: absolute;
+       left: 66%;
+       animation: aaff 4s linear  alternate;
+       z-index: 1;
+}
+
+@keyframes aaff{
+    0%{
+        content: counter(width);
+        
+    }
+   
+    
+    100%{
+        content: counter(width);
+        
+    }
+}
+
+.web {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.web div{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    border: 4px solid rgb(0, 238, 255);
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    line-height: 10;
+    margin: 1px;
+    box-sizing: border-box;
+}
+.mob {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mob div{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    border: 4px solid rgb(0, 238, 255);
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    line-height: 10;
+    margin: 34%;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 350px) and (max-width: 490px){
+    .mob div {
+        width: 90px;
+        height: 90px;
+        line-height: 5;
+    }
+    .web div {
+        width: 90px;
+        height: 90px;
+        line-height: 5;
+    }
+}
+
+
+.fot {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.fot div img {
+    width: 300px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+.facebook {
+    background-color: rgb(72, 99, 248);
+    border: 2px solid rgb(44, 57, 238);
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 10px 3px rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 35px;
+    
+}
+.facebook a:link {
+    color: white;
+    }
+    .facebook a:visited {
+        color: aliceblue;
+    }
+
+    .linkid a:link {
+        color: white;
+        text-decoration: none;
+        }
+    
+    .linkid {
+        background-color: rgb(13, 9, 247);
+        border: 2px solid rgb(38, 1, 250);
+        border-radius: 12px;
+        color: rgb(255, 255, 255);
+        box-shadow: 2px 3px 10px 3px rgb(43 39 39);
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        font-size: 35px;
+    
+    }
+
+    .linkid a:visited {
+        color: aliceblue;
+    }
+
+    .behans a:link {
+        color: white;
+        text-decoration: none;
+        }
+    
+    .behans {
+        background-color: rgb(0 0 0);
+        border: 2px solid rgb(0 0 0);
+        border-radius: 12px;
+        color: rgb(255, 255, 255);
+        box-shadow: 2px 3px 10px 3px rgb(43 39 39);
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        font-size: 35px;
+    
+    }
+
+    .behans a:visited {
+        color: aliceblue;
+    }
+.gmail img{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 22px;
+    /* color: rgb(255, 255, 255); */
+    box-shadow: 2px 3px 10px 3px rgb(0, 0, 0);
+    text-decoration: blink;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+    /* margin-left: 25%; */
+}
+.gmail a:link {
+    color: rgb(0, 0, 0);
+    }
+.pragraf {
+    text-align: center;
+    background-color: #000000cc;
+    color: white;
+}
+
+
+
+
+
+
+
+
+

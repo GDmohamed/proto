@@ -1,0 +1,304 @@
+body {
+    background-image:linear-gradient(180deg, rgb(0, 0, 0),rgb(22, 19, 19),rgb(19, 13, 13),rgb(24, 17, 17), rgb(17, 13, 13),
+     rgb(53, 37, 37), 
+     rgb(68, 65, 65),
+      rgb(87, 79, 79),
+       rgb(90, 78, 78),
+       rgb(75, 39, 39),
+       rgb(131, 48, 48),
+       rgb(165, 28, 28),
+       rgb(255, 0, 0));
+   
+}
+
+.par{
+    background-image:linear-gradient(180deg, rgb(75, 71, 71),rgb(0, 0, 0));
+    /* background-attachment: fixed; */
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.1px solid white;
+    position: sticky;
+    top: 0 ;
+    z-index: 2;
+    
+}
+
+
+
+.par a{
+    background-color: rgb(55 3 3);
+    text-decoration: none;
+    animation-name: hurt;
+    animation-duration: 10s;
+}
+
+.par a:link {
+    color: white;
+}
+.par a:visited {
+    color: aliceblue;
+}
+.par a:hover {
+    color: rgb(246, 255, 161);
+    font-size: 30px;
+    text-decoration:underline;
+}
+
+.one img {
+    width: 70px;
+    height: auto;
+    background-color: black;
+}
+
+
+
+.Welcome{
+    width: 100%;
+    background-color: red;
+    /* margin-top: -75px; */
+    animation: hoot 10s ease  alternate;
+}
+
+@keyframes hoot{
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: rgb(204, 113, 8);
+    }
+    50%{
+        background-color: rgb(0, 255, 106);
+    }
+    75%{
+        background-color: rgb(0, 204, 255);
+    }
+    100%{
+        background-color: red;
+    }
+}
+h1 {
+    color: white;
+    text-align: center;
+    position: relative;
+    animation: hott 10s ease-in-out  alternate;
+}
+
+@keyframes hott{
+    0%{
+        transform: translateX(-100%);
+        transition: 0.8s;
+    }
+   
+    25%{
+        transform: translateX(-50%);
+        transition: 0.8s;
+    }
+    
+    50%{
+        transform: translateX(0%);
+        transition: 0.8s;
+    }
+   
+    75%{
+        transform: translateX(50%);
+        transition: 0.8s;
+    }
+    
+    100%{
+        transform: translateX(100%);
+        transition: 0.8s;
+    }
+}
+
+
+
+.media {
+    display: grid;
+    justify-content: center;
+}
+
+img {
+    width: 600px;
+    height: 600px;
+}
+
+h2 {
+    color: white;
+    font-weight: bolder;
+    font-size: 55px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+p {
+    color: white;
+}
+
+i {
+    color: white;
+    text-align: center;
+}
+
+@media (min-width: 300px) and (max-width: 390px) {
+
+    div img {
+    width: 250px;
+    height: 250px;
+    }
+    .media {
+        display: grid;
+        justify-content: space-around;
+    }
+
+    p{
+        width: 250px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 490px){
+
+    div img {
+    width: 350px;
+    height: 350px;
+    }
+    .media {
+        display: grid;
+        justify-content: space-around;
+    }
+
+    p{
+        width: 250px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 590px) {
+
+    img {
+    width: 400px;
+    height: 400px;
+    }
+    .media {
+        display: grid;
+        justify-content: space-around;
+    }
+
+    p{
+        width: 350px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 650px) {
+
+    img {
+    width: 500px;
+    height: 500px;
+    }
+    .media {
+        display: grid;
+        justify-content: space-around;
+    }
+    
+}
+
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+.facebook {
+    background-color: rgb(72, 99, 248);
+    border: 2px solid rgb(44, 57, 238);
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 10px 3px rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 35px;
+    
+}
+.facebook a:link {
+    color: white;
+    }
+    .facebook a:visited {
+        color: aliceblue;
+    }
+
+    .linkid a:link {
+        color: white;
+        text-decoration: none;
+        }
+    
+    .linkid {
+        background-color: rgb(13, 9, 247);
+        border: 2px solid rgb(38, 1, 250);
+        border-radius: 12px;
+        color: rgb(255, 255, 255);
+        box-shadow: 2px 3px 10px 3px rgb(43 39 39);
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        font-size: 35px;
+    
+    }
+
+    .linkid a:visited {
+        color: aliceblue;
+    }
+
+    .behans a:link {
+        color: white;
+        text-decoration: none;
+        }
+    
+    .behans {
+        background-color: rgb(0 0 0);
+        border: 2px solid rgb(0 0 0);
+        border-radius: 12px;
+        color: rgb(255, 255, 255);
+        box-shadow: 2px 3px 10px 3px rgb(43 39 39);
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        font-size: 35px;
+    
+    }
+
+    .behans a:visited {
+        color: aliceblue;
+    }
+.gmail img{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 22px;
+    /* color: rgb(255, 255, 255); */
+    box-shadow: 2px 3px 10px 3px rgb(0, 0, 0);
+    text-decoration: blink;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+    /* margin-left: 25%; */
+}
+.gmail a:link {
+    color: rgb(0, 0, 0);
+    }
+.pragraf {
+    text-align: center;
+    background-color: #000000cc;
+    color: white;
+}
+
